@@ -1,0 +1,11 @@
+#pragma once
+#include <workspace/game/unreal/engine/core/edk.h>
+#include <workspace/game/unreal/engine/core/enums.h>
+#include <workspace/game/unreal/engine/core/structs.hxx>
+#include <workspace/game/unreal/engine/engine.hxx>
+#include <workspace/game/unreal/engine/kismet/fort/fort.hxx>
+#include <workspace/game/unreal/engine/kismet/game/game.hxx>
+#include <workspace/game/unreal/engine/kismet/math/math.hxx>
+#include <workspace/game/unreal/engine/kismet/string/string.hxx>
+#include <workspace/game/unreal/engine/kismet/system/system.hxx>
+#include <workspace/game/unreal/engine/utility/utility.hxx>

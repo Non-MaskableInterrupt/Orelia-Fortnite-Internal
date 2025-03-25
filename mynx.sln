@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mynx-fn-internal", "mynx-fn-internal\mynx-fn-internal.vcxproj", "{A53AF19D-D239-4180-BA89-93ADB8A017A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mynx-gateway", "mynx-gateway\mynx-gateway.vcxproj", "{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mynx-rust-internal", "mynx-rust-internal\mynx-rust-internal.vcxproj", "{90C868E0-5FA7-4DD3-9AD3-B235D3680585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		FortniteBuild|x64 = FortniteBuild|x64
+		FortniteBuild|x86 = FortniteBuild|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Debug|x64.ActiveCfg = Debug|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Debug|x64.Build.0 = Debug|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Debug|x86.Build.0 = Debug|Win32
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.FortniteBuild|x64.ActiveCfg = FortniteBuild|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.FortniteBuild|x64.Build.0 = FortniteBuild|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.FortniteBuild|x86.ActiveCfg = FortniteBuild|Win32
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.FortniteBuild|x86.Build.0 = FortniteBuild|Win32
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Release|x64.ActiveCfg = Release|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Release|x64.Build.0 = Release|x64
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Release|x86.ActiveCfg = Release|Win32
+		{A53AF19D-D239-4180-BA89-93ADB8A017A5}.Release|x86.Build.0 = Release|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Debug|x64.ActiveCfg = Debug|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Debug|x64.Build.0 = Debug|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Debug|x86.Build.0 = Debug|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.FortniteBuild|x64.ActiveCfg = Release|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.FortniteBuild|x64.Build.0 = Release|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.FortniteBuild|x86.ActiveCfg = Release|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.FortniteBuild|x86.Build.0 = Release|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Release|x64.ActiveCfg = Release|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Release|x64.Build.0 = Release|x64
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Release|x86.ActiveCfg = Release|Win32
+		{8B3AA262-58E9-4FC5-87BA-10D7199CB4E7}.Release|x86.Build.0 = Release|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Debug|x64.ActiveCfg = Debug|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Debug|x64.Build.0 = Debug|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Debug|x86.ActiveCfg = Debug|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Debug|x86.Build.0 = Debug|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.FortniteBuild|x64.ActiveCfg = Debug|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.FortniteBuild|x64.Build.0 = Debug|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.FortniteBuild|x86.ActiveCfg = Debug|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.FortniteBuild|x86.Build.0 = Debug|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Release|x64.ActiveCfg = Release|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Release|x64.Build.0 = Release|x64
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Release|x86.ActiveCfg = Release|Win32
+		{90C868E0-5FA7-4DD3-9AD3-B235D3680585}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E8DB74-2FF1-49A0-9E41-5C3504D1FCAF}
+	EndGlobalSection
+EndGlobal

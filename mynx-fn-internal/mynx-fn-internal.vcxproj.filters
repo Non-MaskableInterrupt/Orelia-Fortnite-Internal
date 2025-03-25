@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\oxorany\oxorany.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="workspace\game\features.h" />
+    <ClInclude Include="impl\vmt\vmt.hxx" />
+    <ClInclude Include="workspace\game\core\targeting\targeting.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\engine.hxx" />
+    <ClInclude Include="impl\includes.h" />
+    <ClInclude Include="workspace\process\process.hxx" />
+    <ClInclude Include="dependencies\oxorany\oxorany.h" />
+    <ClInclude Include="dependencies\oxorany\oxorany_include.h" />
+    <ClInclude Include="dependencies\skcrypt\skcrypt.h" />
+    <ClInclude Include="workspace\game\unreal\engine\core\enums.h" />
+    <ClInclude Include="workspace\game\unreal\engine\core\structs.hxx" />
+    <ClInclude Include="workspace\game\unreal\unreal.h" />
+    <ClInclude Include="impl\trap\trap.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\math\math.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\system\system.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\fort\fort.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\string\string.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\game\game.hxx" />
+    <ClInclude Include="workspace\game\core\exploits\chams.hxx" />
+    <ClInclude Include="workspace\game\core\exploits\psilent.hxx" />
+    <ClInclude Include="workspace\game\core\exploits\desync.hxx" />
+    <ClInclude Include="workspace\game\core\exploits\weapon.hxx" />
+    <ClInclude Include="workspace\drawing\drawing.h" />
+    <ClInclude Include="workspace\drawing\menu\widgets\widgets.hxx" />
+    <ClInclude Include="workspace\drawing\menu\menu.hxx" />
+    <ClInclude Include="workspace\drawing\render\shapes\shapes.hxx" />
+    <ClInclude Include="workspace\drawing\render\drawlist\drawlist.hxx" />
+    <ClInclude Include="workspace\drawing\menu\widgets\debug\debug.hxx" />
+    <ClInclude Include="workspace\drawing\menu\widgets\radar\radar.hxx" />
+    <ClInclude Include="workspace\drawing\menu\widgets\scrollbar\scrollbar.hxx" />
+    <ClInclude Include="workspace\drawing\canvas\canvas.hxx" />
+    <ClInclude Include="workspace\drawing\visuals\visuals.hxx" />
+    <ClInclude Include="workspace\drawing\menu\gui\gui.hxx" />
+    <ClInclude Include="impl\pipe\pipe.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\kismet\utils\utils.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\core\edk.h" />
+    <ClInclude Include="workspace\game\core\config\config.hxx" />
+    <ClInclude Include="workspace\game\core\console\console.hxx" />
+    <ClInclude Include="impl\rtl\memcpy.hxx" />
+    <ClInclude Include="impl\rtl\strcmp.hxx" />
+    <ClInclude Include="impl\rtl\strlen.hxx" />
+    <ClInclude Include="impl\rtl\strstr.hxx" />
+    <ClInclude Include="impl\sdk\sdk.hxx" />
+    <ClInclude Include="workspace\heartbeat\heartbeat.hxx" />
+    <ClInclude Include="workspace\game\hooks\draw_transtion.hxx" />
+    <ClInclude Include="workspace\game\unreal\engine\utility\utility.hxx" />
+  </ItemGroup>
+</Project>
